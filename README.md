@@ -1,4 +1,4 @@
-# 📘 Programación Orientada a Objetos (OOP)
+# 📘 Programación Orientada a Objetos (POO)
 
 En este repositorio se encuentran todos los ejercicios desarrollados en clase, así como las entregas realizadas durante el semestre del curso de **Programación Orientada a Objetos**.
 
