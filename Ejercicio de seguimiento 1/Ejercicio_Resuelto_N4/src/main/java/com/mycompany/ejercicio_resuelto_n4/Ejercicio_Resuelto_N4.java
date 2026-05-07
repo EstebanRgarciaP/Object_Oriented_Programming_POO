@@ -16,6 +16,7 @@ public class Ejercicio_Resuelto_N4 {
        edalber=Edades.Calcular_edadber(edjuan);
        edana= Edades.Calcular_edana(edjuan);
        edmama=Edades.Calcular_edmama(edjuan, edalber, edana);
-       System.out.println("Las edades son; Alberto = " + edalber + " juan = " + edjuan + " Ana = "+ edana + " Mama = "+ edmama);
+       System.out.println("Las edades son; Alberto = " + edalber + 
+               " juan = " + edjuan + " Ana = "+ edana + " Mama = "+ edmama);
     }
 }
