@@ -1,0 +1,628 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGfitaE6RSG5pU=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAGfitaE6BSERRI="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGfitaE6hSHCgI=",
+									"_parent": {
+										"$ref": "AAAAAAGfitaE6RSG5pU="
+									},
+									"model": {
+										"$ref": "AAAAAAGfitaE6BSERRI="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGfitaE6hSIazM=",
+											"_parent": {
+												"$ref": "AAAAAAGfitaE6hSHCgI="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": -496,
+											"top": -176,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGfitaE6hSJd0E=",
+											"_parent": {
+												"$ref": "AAAAAAGfitaE6hSHCgI="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 141,
+											"top": 207,
+											"width": 726.8291015625,
+											"height": 13,
+											"text": "ArtículoCientífico"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGfitaE6hSK0bw=",
+											"_parent": {
+												"$ref": "AAAAAAGfitaE6hSHCgI="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": -496,
+											"top": -176,
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGfitaE6hSLuVI=",
+											"_parent": {
+												"$ref": "AAAAAAGfitaE6hSHCgI="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": -496,
+											"top": -176,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 136,
+									"top": 200,
+									"width": 736.8291015625,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGfitaE6hSIazM="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGfitaE6hSJd0E="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGfitaE6hSK0bw="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGfitaE6hSLuVI="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGfitaE6xSM4OI=",
+									"_parent": {
+										"$ref": "AAAAAAGfitaE6RSG5pU="
+									},
+									"model": {
+										"$ref": "AAAAAAGfitaE6BSERRI="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGfitcZZhSzDI8=",
+											"_parent": {
+												"$ref": "AAAAAAGfitaE6xSM4OI="
+											},
+											"model": {
+												"$ref": "AAAAAAGfitcZWhSw74A="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 141,
+											"top": 230,
+											"width": 726.8291015625,
+											"height": 13,
+											"text": "-título: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGfitciCRS52q4=",
+											"_parent": {
+												"$ref": "AAAAAAGfitaE6xSM4OI="
+											},
+											"model": {
+												"$ref": "AAAAAAGfitciBRS2Tnk="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 141,
+											"top": 245,
+											"width": 726.8291015625,
+											"height": 13,
+											"text": "-autor: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGfitck0hS/sDg=",
+											"_parent": {
+												"$ref": "AAAAAAGfitaE6xSM4OI="
+											},
+											"model": {
+												"$ref": "AAAAAAGfitckzRS8KjY="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 141,
+											"top": 260,
+											"width": 726.8291015625,
+											"height": 13,
+											"text": "-palabrasClaves: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGfitcnQhTF8xQ=",
+											"_parent": {
+												"$ref": "AAAAAAGfitaE6xSM4OI="
+											},
+											"model": {
+												"$ref": "AAAAAAGfitcnPRTCoRg="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 141,
+											"top": 275,
+											"width": 726.8291015625,
+											"height": 13,
+											"text": "-publicación: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGfitcpgBTLFs8=",
+											"_parent": {
+												"$ref": "AAAAAAGfitaE6xSM4OI="
+											},
+											"model": {
+												"$ref": "AAAAAAGfitcpehTIyQM="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 141,
+											"top": 290,
+											"width": 726.8291015625,
+											"height": 13,
+											"text": "-año: int",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGfitcr7RTRtfI=",
+											"_parent": {
+												"$ref": "AAAAAAGfitaE6xSM4OI="
+											},
+											"model": {
+												"$ref": "AAAAAAGfitcr6RTOkDw="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 141,
+											"top": 305,
+											"width": 726.8291015625,
+											"height": 13,
+											"text": "-resumen: String",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 136,
+									"top": 225,
+									"width": 736.8291015625,
+									"height": 98
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGfitaE6xSNnok=",
+									"_parent": {
+										"$ref": "AAAAAAGfitaE6RSG5pU="
+									},
+									"model": {
+										"$ref": "AAAAAAGfitaE6BSERRI="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGfitfd9RTem3U=",
+											"_parent": {
+												"$ref": "AAAAAAGfitaE6xSNnok="
+											},
+											"model": {
+												"$ref": "AAAAAAGfitfd7xTbkFg="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 141,
+											"top": 328,
+											"width": 726.8291015625,
+											"height": 13,
+											"text": "«constructor»+ArtículoCientífico(String título, String autor, String[] palabrasClaves, String publicación, int año)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGfitfi6xTk3oE=",
+											"_parent": {
+												"$ref": "AAAAAAGfitaE6xSNnok="
+											},
+											"model": {
+												"$ref": "AAAAAAGfitfi4RThRKE="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 141,
+											"top": 343,
+											"width": 726.8291015625,
+											"height": 13,
+											"text": "«constructor»+ArtículoCientífico(String título, String autor, String[] palabrasClaves, String publicación, int año, String resumen)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGfitfmcRTqkes=",
+											"_parent": {
+												"$ref": "AAAAAAGfitaE6xSNnok="
+											},
+											"model": {
+												"$ref": "AAAAAAGfitfmaxTnERY="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 141,
+											"top": 358,
+											"width": 726.8291015625,
+											"height": 13,
+											"text": "«constructor»+ArtículoCientífico(String título, String autor)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGfitfpWRTwBuM=",
+											"_parent": {
+												"$ref": "AAAAAAGfitaE6xSNnok="
+											},
+											"model": {
+												"$ref": "AAAAAAGfitfpVhTtJWk="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 141,
+											"top": 373,
+											"width": 726.8291015625,
+											"height": 13,
+											"text": "+imprimir()",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 136,
+									"top": 323,
+									"width": 736.8291015625,
+									"height": 68
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGfitaE6xSO1XM=",
+									"_parent": {
+										"$ref": "AAAAAAGfitaE6RSG5pU="
+									},
+									"model": {
+										"$ref": "AAAAAAGfitaE6BSERRI="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": -248,
+									"top": -88,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGfitaE6xSPOqk=",
+									"_parent": {
+										"$ref": "AAAAAAGfitaE6RSG5pU="
+									},
+									"model": {
+										"$ref": "AAAAAAGfitaE6BSERRI="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": -248,
+									"top": -88,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 136,
+							"top": 200,
+							"width": 735.8291015625,
+							"height": 191,
+							"nameCompartment": {
+								"$ref": "AAAAAAGfitaE6hSHCgI="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGfitaE6xSM4OI="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGfitaE6xSNnok="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGfitaE6xSO1XM="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGfitaE6xSPOqk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGfitaE6BSERRI=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "ArtículoCientífico",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGfitcZWhSw74A=",
+							"_parent": {
+								"$ref": "AAAAAAGfitaE6BSERRI="
+							},
+							"name": "título",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGfitciBRS2Tnk=",
+							"_parent": {
+								"$ref": "AAAAAAGfitaE6BSERRI="
+							},
+							"name": "autor",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGfitckzRS8KjY=",
+							"_parent": {
+								"$ref": "AAAAAAGfitaE6BSERRI="
+							},
+							"name": "palabrasClaves",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGfitcnPRTCoRg=",
+							"_parent": {
+								"$ref": "AAAAAAGfitaE6BSERRI="
+							},
+							"name": "publicación",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGfitcpehTIyQM=",
+							"_parent": {
+								"$ref": "AAAAAAGfitaE6BSERRI="
+							},
+							"name": "año",
+							"visibility": "private",
+							"type": "int"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGfitcr6RTOkDw=",
+							"_parent": {
+								"$ref": "AAAAAAGfitaE6BSERRI="
+							},
+							"name": "resumen",
+							"visibility": "private",
+							"type": "String"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGfitfd7xTbkFg=",
+							"_parent": {
+								"$ref": "AAAAAAGfitaE6BSERRI="
+							},
+							"name": "ArtículoCientífico",
+							"stereotype": "constructor",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfitrOvxT0x9g=",
+									"_parent": {
+										"$ref": "AAAAAAGfitfd7xTbkFg="
+									},
+									"name": "String título",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfitrOvxT11T8=",
+									"_parent": {
+										"$ref": "AAAAAAGfitfd7xTbkFg="
+									},
+									"name": "String autor",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfitrOvxT2+Cw=",
+									"_parent": {
+										"$ref": "AAAAAAGfitfd7xTbkFg="
+									},
+									"name": "String[] palabrasClaves",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfitrOvxT3QtA=",
+									"_parent": {
+										"$ref": "AAAAAAGfitfd7xTbkFg="
+									},
+									"name": "String publicación",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfitrOvxT4xLA=",
+									"_parent": {
+										"$ref": "AAAAAAGfitfd7xTbkFg="
+									},
+									"name": "int año",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGfitfi4RThRKE=",
+							"_parent": {
+								"$ref": "AAAAAAGfitaE6BSERRI="
+							},
+							"name": "ArtículoCientífico",
+							"stereotype": "constructor",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfits61RUBVHQ=",
+									"_parent": {
+										"$ref": "AAAAAAGfitfi4RThRKE="
+									},
+									"name": "String título",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfits61RUC48w=",
+									"_parent": {
+										"$ref": "AAAAAAGfitfi4RThRKE="
+									},
+									"name": "String autor",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfits61RUDWR8=",
+									"_parent": {
+										"$ref": "AAAAAAGfitfi4RThRKE="
+									},
+									"name": "String[] palabrasClaves",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfits61RUEdSU=",
+									"_parent": {
+										"$ref": "AAAAAAGfitfi4RThRKE="
+									},
+									"name": "String publicación",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfits61RUFP/A=",
+									"_parent": {
+										"$ref": "AAAAAAGfitfi4RThRKE="
+									},
+									"name": "int año",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfits61RUGWVc=",
+									"_parent": {
+										"$ref": "AAAAAAGfitfi4RThRKE="
+									},
+									"name": "String resumen",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGfitfmaxTnERY=",
+							"_parent": {
+								"$ref": "AAAAAAGfitaE6BSERRI="
+							},
+							"name": "ArtículoCientífico",
+							"stereotype": "constructor",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfituvkBUOpF4=",
+									"_parent": {
+										"$ref": "AAAAAAGfitfmaxTnERY="
+									},
+									"name": "String título",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfituvkRUPV5U=",
+									"_parent": {
+										"$ref": "AAAAAAGfitfmaxTnERY="
+									},
+									"name": "String autor",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGfitfpVhTtJWk=",
+							"_parent": {
+								"$ref": "AAAAAAGfitaE6BSERRI="
+							},
+							"name": "imprimir"
+						}
+					]
+				}
+			]
+		}
+	]
+}

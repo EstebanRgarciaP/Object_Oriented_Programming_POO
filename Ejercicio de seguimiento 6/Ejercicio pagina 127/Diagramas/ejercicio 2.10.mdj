@@ -1,0 +1,468 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGfit+3xHbIZeU=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAGfit+3w3bGVcw="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGfit+3xHbJveQ=",
+									"_parent": {
+										"$ref": "AAAAAAGfit+3xHbIZeU="
+									},
+									"model": {
+										"$ref": "AAAAAAGfit+3w3bGVcw="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGfit+3xHbKHBo=",
+											"_parent": {
+												"$ref": "AAAAAAGfit+3xHbJveQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": -1024,
+											"top": -208,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGfit+3xXbL76k=",
+											"_parent": {
+												"$ref": "AAAAAAGfit+3xHbJveQ="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 5,
+											"top": 247,
+											"width": 1047.04931640625,
+											"height": 13,
+											"text": "Pedido"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGfit+3xXbMDTI=",
+											"_parent": {
+												"$ref": "AAAAAAGfit+3xHbJveQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": -1024,
+											"top": -208,
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGfit+3xXbNqsg=",
+											"_parent": {
+												"$ref": "AAAAAAGfit+3xHbJveQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": -1024,
+											"top": -208,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"top": 240,
+									"width": 1057.04931640625,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGfit+3xHbKHBo="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGfit+3xXbL76k="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGfit+3xXbMDTI="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGfit+3xXbNqsg="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGfit+3xXbOBbo=",
+									"_parent": {
+										"$ref": "AAAAAAGfit+3xHbIZeU="
+									},
+									"model": {
+										"$ref": "AAAAAAGfit+3w3bGVcw="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"top": 265,
+									"width": 1057.04931640625,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGfit+3xXbPZHI=",
+									"_parent": {
+										"$ref": "AAAAAAGfit+3xHbIZeU="
+									},
+									"model": {
+										"$ref": "AAAAAAGfit+3w3bGVcw="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGfiuAjRnb0x0k=",
+											"_parent": {
+												"$ref": "AAAAAAGfit+3xXbPZHI="
+											},
+											"model": {
+												"$ref": "AAAAAAGfiuAjPXbxNQ0="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 5,
+											"top": 280,
+											"width": 1047.04931640625,
+											"height": 13,
+											"text": "+calcularPedido(String primerPlato, double costoPrimerPlato, String bebida, double costoBebida)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGfiuB1cXb6cfw=",
+											"_parent": {
+												"$ref": "AAAAAAGfit+3xXbPZHI="
+											},
+											"model": {
+												"$ref": "AAAAAAGfiuB1bHb3YjU="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 5,
+											"top": 295,
+											"width": 1047.04931640625,
+											"height": 13,
+											"text": "+calcularPedido(String primerPlato, double costoPrimerPlato, String segundoPlato, double costoSegundoPlato, String bebida, double costoBebida)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGfiuB4DHcARg0=",
+											"_parent": {
+												"$ref": "AAAAAAGfit+3xXbPZHI="
+											},
+											"model": {
+												"$ref": "AAAAAAGfiuB4Bnb96tg="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 5,
+											"top": 310,
+											"width": 1047.04931640625,
+											"height": 13,
+											"text": "+calcularPedido(String primerPlato, double costoPrimerPlato, String segundoPlato, double costoSegundoPlato, String postre, double costoPostre, String bebida, double costoBebida)",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"top": 275,
+									"width": 1057.04931640625,
+									"height": 53
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGfit+3xXbQXJA=",
+									"_parent": {
+										"$ref": "AAAAAAGfit+3xHbIZeU="
+									},
+									"model": {
+										"$ref": "AAAAAAGfit+3w3bGVcw="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": -512,
+									"top": -104,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGfit+3xXbRdSw=",
+									"_parent": {
+										"$ref": "AAAAAAGfit+3xHbIZeU="
+									},
+									"model": {
+										"$ref": "AAAAAAGfit+3w3bGVcw="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": -512,
+									"top": -104,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"top": 240,
+							"width": 1056.04931640625,
+							"height": 88,
+							"nameCompartment": {
+								"$ref": "AAAAAAGfit+3xHbJveQ="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGfit+3xXbOBbo="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGfit+3xXbPZHI="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGfit+3xXbQXJA="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGfit+3xXbRdSw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGfit+3w3bGVcw=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Pedido",
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGfiuAjPXbxNQ0=",
+							"_parent": {
+								"$ref": "AAAAAAGfit+3w3bGVcw="
+							},
+							"name": "calcularPedido",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuCCgncEhPA=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuAjPXbxNQ0="
+									},
+									"name": "String primerPlato",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuCCgncFlTo=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuAjPXbxNQ0="
+									},
+									"name": "double costoPrimerPlato",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuCCg3cGtRE=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuAjPXbxNQ0="
+									},
+									"name": "String bebida",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuCCg3cHhFk=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuAjPXbxNQ0="
+									},
+									"name": "double costoBebida",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGfiuB1bHb3YjU=",
+							"_parent": {
+								"$ref": "AAAAAAGfit+3w3bGVcw="
+							},
+							"name": "calcularPedido",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuCylXcOxrU=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuB1bHb3YjU="
+									},
+									"name": "String primerPlato",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuCylXcPLL8=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuB1bHb3YjU="
+									},
+									"name": "double costoPrimerPlato",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuCylXcQX/I=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuB1bHb3YjU="
+									},
+									"name": "String segundoPlato",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuCylXcRmmg=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuB1bHb3YjU="
+									},
+									"name": "double costoSegundoPlato",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuCylXcSImc=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuB1bHb3YjU="
+									},
+									"name": "String bebida",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuCylXcTFQk=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuB1bHb3YjU="
+									},
+									"name": "double costoBebida",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGfiuB4Bnb96tg=",
+							"_parent": {
+								"$ref": "AAAAAAGfit+3w3bGVcw="
+							},
+							"name": "calcularPedido",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuELZXcdQ+s=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuB4Bnb96tg="
+									},
+									"name": "String primerPlato",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuELZXcefxU=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuB4Bnb96tg="
+									},
+									"name": "double costoPrimerPlato",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuELZXcfRMk=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuB4Bnb96tg="
+									},
+									"name": "String segundoPlato",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuELZXcg4Mc=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuB4Bnb96tg="
+									},
+									"name": "double costoSegundoPlato",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuELZXch5fQ=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuB4Bnb96tg="
+									},
+									"name": "String postre",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuELZXciKDE=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuB4Bnb96tg="
+									},
+									"name": "double costoPostre",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuELZXcjrX4=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuB4Bnb96tg="
+									},
+									"name": "String bebida",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfiuELZXckYlQ=",
+									"_parent": {
+										"$ref": "AAAAAAGfiuB4Bnb96tg="
+									},
+									"name": "double costoBebida",
+									"type": ""
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
